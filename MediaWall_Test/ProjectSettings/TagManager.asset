@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Melon
+    uniqueID: 3952809861
+    locked: 0
+  - name: Sea
+    uniqueID: 723455449
+    locked: 0
+  - name: Tree
+    uniqueID: 529288503
+    locked: 0
