@@ -38,8 +38,19 @@ public class orangeFarm : MonoBehaviour
         anim.GetComponent<SpriteRenderer>().color = c;
     }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Time.timeScale = 1;
+        //gameObject.GetComponent<Animator>().speed = 0;
+        anim.enabled = false;
+        Color c = anim.GetComponent<SpriteRenderer>().color;
+        c.a = 1;
+        anim.GetComponent<SpriteRenderer>().color = c;
+    }
+
     void OrangeBox()
     {
+        SoundManager.isBox = true;
         anim1.enabled = true;
     }
 

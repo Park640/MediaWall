@@ -19,4 +19,17 @@ public class Hamburger : MonoBehaviour
             Child.GetComponent<Animator>().SetBool("eat", true);
         }
     }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (childNo == 0)
+        {
+            Child.SetActive(true);
+            childNo++;
+        }
+        else if (childNo == 1)
+        {
+            Child.GetComponent<Animator>().SetBool("eat", true);
+        }
+    }
 }

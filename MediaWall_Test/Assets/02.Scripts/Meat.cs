@@ -30,10 +30,46 @@ public class Meat : MonoBehaviour
         }
         else if (scenario.sceneNo == 3)
         {
+            SoundManager.isSound = true;
             scenario.cow.GetComponent<Animator>().SetBool("cowOut", true);
             scenario.sceneNo++;
         }
         else if (scenario.sceneNo == 4) 
+        {
+            scenario.factory.SetActive(true);
+            scenario.sceneNo++;
+        }
+
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (scenario.sceneNo == 0)
+        {
+            scenario.earthAnim.SetBool("earthOn", true);
+            //scenario.nextAnim.SetBool("nextOn", true);
+            scenario.sceneNo++;
+        }
+        else if (scenario.sceneNo == 1)
+        {
+            bgm.Select1();
+            scenario.felling.SetActive(true);
+            scenario.sceneNo++;
+        }
+        else if (scenario.sceneNo == 2)
+        {
+            scenario.felling.GetComponent<Animator>().SetBool("fellingOut", true);
+            scenario.cow.SetActive(true);
+            gameObject.SetActive(false);
+            scenario.sceneNo++;
+        }
+        else if (scenario.sceneNo == 3)
+        {
+            SoundManager.isSound = true;
+            scenario.cow.GetComponent<Animator>().SetBool("cowOut", true);
+            scenario.sceneNo++;
+        }
+        else if (scenario.sceneNo == 4)
         {
             scenario.factory.SetActive(true);
             scenario.sceneNo++;

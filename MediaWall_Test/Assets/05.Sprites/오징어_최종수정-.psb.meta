@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a0628470e7be7194ead11bf43ff0e6d1
+guid: f9a48b68bc265944592a035b1584c5bb
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ ScriptedImporter:
       y: 4
       width: 310
       height: 257
-    spriteID: fedbe1d664f96c94c924bc09ad84ae8b
+    spriteID: 6999a1e14e7c82844964edff6512b20b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -128,7 +128,51 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
     boneReadOnly: 0
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   mosaicLayers: 1
   characterMode: 1
   documentPivot: {x: 0, y: 0}
@@ -149,7 +193,7 @@ ScriptedImporter:
     spriteName: "\uC624\uC9D5\uC5B4_\uCD5C\uC885\uC218\uC815"
     isGroup: 0
     parentIndex: -1
-    spriteID: fedbe1d664f96c94c924bc09ad84ae8b
+    spriteID: 6999a1e14e7c82844964edff6512b20b
     layerID: 5
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
@@ -159,7 +203,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: -1
-    spriteID: 439e0de58e083dd4685d7fa3ea7a8121
+    spriteID: 7a30faf67418d5d4ebaa0ce096fd6dbc
     layerID: 4
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -169,7 +213,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: -1
-    spriteID: 071ebb88df0d7084ab2aa0c9e62a23ee
+    spriteID: 6a9a76043d176e44aaae3b11cf69fadd
     layerID: 3
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -179,7 +223,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: -1
-    spriteID: f2c2a47c7cc5b884e8b45caa551ea801
+    spriteID: 489e8547427a85447b43fbd9062b7b3e
     layerID: 2
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -189,7 +233,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: -1
-    spriteID: 9fa7c2401296c01408825e8e7a1789d3
+    spriteID: 039f22018c9ef8f4080ff0b8069178d0
     layerID: 1
     mosaicPosition: {x: 0, y: 0}
     flatten: 0

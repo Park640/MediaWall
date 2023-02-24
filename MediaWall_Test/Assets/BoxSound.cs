@@ -36,5 +36,8 @@ public class BoxSound : MonoBehaviour
         SoundManager.isSea = true;
     }
 
-
+    void OrangeSound()
+    {
+        SoundManager.isSound = true;
+    }
 }

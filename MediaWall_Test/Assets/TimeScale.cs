@@ -20,4 +20,9 @@ public class TimeScale : MonoBehaviour
     {
         Time.timeScale = 1;
     }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Time.timeScale = 1;
+    }
 }

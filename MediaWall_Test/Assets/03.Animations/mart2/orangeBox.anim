@@ -1087,7 +1087,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: BoxSoundOn
+    functionName: OrangeSound
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -1123,6 +1123,13 @@ AnimationClip:
     messageOptions: 0
   - time: 7
     functionName: FactorySoundOn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 8.65
+    functionName: BoxSoundOn
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

@@ -5,20 +5,38 @@ using UnityEngine.SceneManagement;
 
 public class reloadScene : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject plane;
+    public GameObject firstScene;
+    public GameObject earth;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public GameObject soundManage;
 
     private void OnMouseDown()
     {
-        SceneManager.LoadScene("Mart");
+        SoundManager.isClick = true;
+        plane.SetActive(false);
+        firstScene.SetActive(true);
+        var child = soundManage.GetComponentsInChildren<AudioSource>();
+        foreach(var sound in child)
+        {
+            sound.Stop();
+        }
+        earth.SetActive(false);
+        earth.GetComponent<Animator>().enabled = false;
+        //SceneManager.LoadScene("Mart");
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        SoundManager.isClick = true;
+        plane.SetActive(false);
+        firstScene.SetActive(true);
+        var child = soundManage.GetComponentsInChildren<AudioSource>();
+        foreach (var sound in child)
+        {
+            sound.Stop();
+        }
+        earth.SetActive(false);
+        earth.GetComponent<Animator>().enabled = false;
     }
 }

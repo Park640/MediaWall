@@ -16,6 +16,7 @@ public class Orange : MonoBehaviour
     {
         cloud.SetActive(true);
         earth.SetActive(true);
+        earth.GetComponent<Animator>().enabled = false;
         orange.SetActive(true);
         gameObject.GetComponent<Animator>().enabled = true;
     }
@@ -37,6 +38,17 @@ public class Orange : MonoBehaviour
         orange.SetActive(true);
         isNext = true;
         
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        earth.GetComponent<Animator>().enabled = true;
+        gameObject.GetComponent<Animator>().enabled = true;
+        earth.SetActive(true);
+        orangeFade.GetComponent<Animator>().enabled = true;
+        cloud.SetActive(true);
+        orange.SetActive(true);
+        isNext = true;
     }
 
     void OrangeSoundOn()

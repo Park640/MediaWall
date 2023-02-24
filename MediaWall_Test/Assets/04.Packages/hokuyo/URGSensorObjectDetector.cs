@@ -53,7 +53,7 @@ namespace HKY
         List<RawObject> rawObjectList;
 
 
-         [SerializeField] List<ProcessedObject> detectedObjects;
+        public List<ProcessedObject> detectedObjects;
         [Header("Object Tracking")]
         [SerializeField] float distanceThresholdForMerge = 300;
         [Range(0.01f, 1f)] public float objectPositionSmoothTime = 0.2f;

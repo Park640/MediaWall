@@ -7,6 +7,9 @@ using UnityEngine;
 public class kitchen : MonoBehaviour
 {
     public ProcessedObject obj;
+    public GameObject factory;
+    public GameObject lRain;
+    public GameObject rRain;
     void Start()
     {
 
@@ -32,6 +35,8 @@ public class kitchen : MonoBehaviour
     void TimeScale()
     {
         Time.timeScale = 0;
+        //Time.fixedDeltaTime = 1;
+        //Physics2D.Simulate(Time.fixedDeltaTime);
     }
 
     void PartySoundOn()
@@ -77,5 +82,17 @@ public class kitchen : MonoBehaviour
     void MagicSound()
     {
         KitchenSound.isMagic = true;
+    }
+
+    void fadeout()
+    {
+        gameObject.GetComponent<Animator>().SetBool("isRef", true);
+    }
+
+    void ParticleOn()
+    {
+        factory.SetActive(true);
+        lRain.SetActive(true);
+        rRain.SetActive(true);
     }
 }

@@ -73,7 +73,7 @@ namespace HKY
     {
         static readonly int MISSING_FRAME_LIMIT = 5;
         public readonly System.Guid guid;
-        public Vector3 position { get; private set; }
+        public Vector3 position;
         public Vector3 deltaMovement { get; private set; }
         public float age { get { return Time.time - birthTime; } }
 

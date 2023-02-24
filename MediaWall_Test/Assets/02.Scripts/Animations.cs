@@ -7,8 +7,17 @@ public class Animations : MonoBehaviour
     public Scenario scenario;
     public Bgm bgm;
     public GameObject meat;
+    public CircleCollider2D coll;
     int childCnt = 0;
 
+    public void ChildStartEat()
+    {
+        gameObject.GetComponent<Animator>().SetBool("eat", true);
+    }
+    public void HamColl()
+    {
+        coll.enabled = true;
+    }
     public void Bird(int i)
     {
         bgm.Bird(i);
@@ -136,7 +145,7 @@ public class Animations : MonoBehaviour
     }
     public void Children()
     {
-        scenario.children.SetActive(true); 
+        scenario.children.SetActive(true);
     }
     public void ChildEat()
     {

@@ -15,6 +15,12 @@ public class SoundManager : MonoBehaviour
     public static bool isSea;
     public static bool isSeagul;
     public static bool isSeagulStop;
+    public static bool is70ShipSound;
+    public static bool isEngineSound;
+    public static bool isClick;
+    public static bool isCoke;
+    public static bool isCat;
+    public static bool isGoat;
     public GameObject isOrange;
     public AudioSource orange;
     public AudioSource plane;
@@ -24,6 +30,12 @@ public class SoundManager : MonoBehaviour
     public AudioSource truck;
     public AudioSource sea;
     public GameObject seagul;
+    public AudioSource shipSound;
+    public AudioSource engine;
+    public AudioSource clickSound;
+    public AudioSource cokeSound;
+    public AudioSource goatSound;
+    public AudioSource catSound;
 
 
     void Start()
@@ -94,6 +106,36 @@ public class SoundManager : MonoBehaviour
         if (isSeagulStop)
         {
             seagul.GetComponent<AudioSource>().enabled = false;
+        }
+        if(is70ShipSound)
+        {
+            is70ShipSound = false;
+            shipSound.Play();
+        }
+        if(isEngineSound)
+        {
+            isEngineSound = false;
+            engine.Play();
+        }
+        if (isClick)
+        {
+            isClick = false;
+            clickSound.Play();
+        }
+        if (isCoke)
+        {
+            isCoke= false;
+            cokeSound.Play();
+        }
+        if(isCat)
+        {
+            isCat = false;
+            catSound.Play();
+        }
+        if(isGoat)
+        {
+            isGoat = false;
+            goatSound.Play();
         }
     }
 }

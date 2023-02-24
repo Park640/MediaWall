@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4fb6e577829c8ae4ba2c0eec7d1963ca
+guid: c9097dcaf1acc614e87faffe0c5387a3
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ ScriptedImporter:
       y: 3222
       width: 310
       height: 257
-    spriteID: e4630c954eb104340b546d074cd3f770
+    spriteID: da2a6ee3ab6bd6142b885b8525129437
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -126,7 +126,7 @@ ScriptedImporter:
       y: 3222
       width: 172
       height: 106
-    spriteID: 85f1099737dd00f4d81422e8f1e50369
+    spriteID: 8eb871b52e1e6b248bdaa960d1ff0b77
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -148,7 +148,7 @@ ScriptedImporter:
       y: 1708
       width: 1639
       height: 1506
-    spriteID: b5e5b368dc21c0141955d383a7c9ea29
+    spriteID: 8098ae4c12801e147a94c15b2cf3a554
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 1762
       height: 1696
-    spriteID: ac9aeeddd1cab564790b2415ab3678e8
+    spriteID: 679f0456d9cf12643bb9f623ee4ecbcc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -194,7 +194,51 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
     boneReadOnly: 0
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   mosaicLayers: 1
   characterMode: 1
   documentPivot: {x: 0, y: 0}
@@ -215,7 +259,7 @@ ScriptedImporter:
     spriteName: "\uC624\uC9D5\uC5B4_-"
     isGroup: 0
     parentIndex: -1
-    spriteID: e4630c954eb104340b546d074cd3f770
+    spriteID: da2a6ee3ab6bd6142b885b8525129437
     layerID: 0
     mosaicPosition: {x: 4, y: 3222}
     flatten: 0
@@ -225,7 +269,7 @@ ScriptedImporter:
     spriteName: "\uC74C\uB8CC \uC0AC\uC9C4 \uC218\uC815"
     isGroup: 0
     parentIndex: -1
-    spriteID: 85f1099737dd00f4d81422e8f1e50369
+    spriteID: 8eb871b52e1e6b248bdaa960d1ff0b77
     layerID: 1000313861
     mosaicPosition: {x: 322, y: 3222}
     flatten: 0
@@ -235,7 +279,7 @@ ScriptedImporter:
     spriteName: "\uACFC\uC77C\uCABD \uC0C1\uC790 \uC120"
     isGroup: 0
     parentIndex: -1
-    spriteID: b5e5b368dc21c0141955d383a7c9ea29
+    spriteID: 8098ae4c12801e147a94c15b2cf3a554
     layerID: -1624805710
     mosaicPosition: {x: 4, y: 1708}
     flatten: 0
@@ -245,7 +289,7 @@ ScriptedImporter:
     spriteName: "\uC0DD\uC120\uCABD \uC120"
     isGroup: 0
     parentIndex: -1
-    spriteID: ac9aeeddd1cab564790b2415ab3678e8
+    spriteID: 679f0456d9cf12643bb9f623ee4ecbcc
     layerID: -1292388290
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
@@ -255,7 +299,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: -1
-    spriteID: e01ea91e8edda1f45b758a0c9a459cc9
+    spriteID: 06bd93188029be649800349c94e8ed22
     layerID: 2092300301
     mosaicPosition: {x: 0, y: 0}
     flatten: 0

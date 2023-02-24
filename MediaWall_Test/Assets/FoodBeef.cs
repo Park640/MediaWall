@@ -9,7 +9,15 @@ public class FoodBeef : MonoBehaviour
 
     private void OnMouseDown()
     {
-        beefTruck.GetComponent<Animator>().enabled = true;
+        beefTruck.SetActive(false);
+        beefTruck.SetActive(true);
+        sounds.Play();
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        beefTruck.SetActive(false);
+        beefTruck.SetActive(true);
         sounds.Play();
     }
 

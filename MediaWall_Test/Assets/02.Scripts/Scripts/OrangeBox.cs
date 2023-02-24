@@ -19,4 +19,10 @@ public class OrangeBox : MonoBehaviour
         anim.enabled = true;
         anim1.enabled = false;
     }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        anim.enabled = true;
+        anim1.enabled = false;
+    }
 }

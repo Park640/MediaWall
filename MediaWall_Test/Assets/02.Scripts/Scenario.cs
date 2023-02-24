@@ -23,11 +23,19 @@ public class Scenario : MonoBehaviour
     public GameObject children;
     public GameObject steak;
 
+    public Animator[] colorAnim;
     public int sceneNo = 1;
 
+    public void StartColor()
+    {
+        foreach (Animator anim in colorAnim)
+        {
+            anim.enabled = true;
+        }
+    }
     private void Awake()
     {
-        Time.timeScale = 0;
+        Time.timeScale = 1;
     }
     public void ChangeScene()
     {
