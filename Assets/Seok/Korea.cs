@@ -7,6 +7,7 @@ public class Korea : MonoBehaviour
     public bool isFruit;
     public GameObject[] destroy;
     public GameObject[] myObj;
+    public GameObject neon;
     public GameObject soundManage;
 
     private void OnMouseDown()
@@ -34,6 +35,9 @@ public class Korea : MonoBehaviour
         {
             col.Stop();
         }
+
+        neon.SetActive(true);
+        Invoke("neonDestory", 1f);
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -61,6 +65,14 @@ public class Korea : MonoBehaviour
         {
             col.Stop();
         }
+
+        neon.SetActive(true);
+        Invoke("neonDestory", 1f);
+    }
+
+    void neonDestory()
+    {
+        neon.SetActive(false);
     }
 
     void Fruit()
