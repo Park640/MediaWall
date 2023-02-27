@@ -7,10 +7,7 @@ public class Korea : MonoBehaviour
     public bool isFruit;
     public GameObject[] destroy;
     public GameObject[] myObj;
-<<<<<<< HEAD
     public GameObject neon;
-=======
->>>>>>> 576edfe6 (Initial commit)
     public GameObject soundManage;
 
     private void OnMouseDown()
@@ -33,17 +30,14 @@ public class Korea : MonoBehaviour
             }
 
         }
-        // ¼öÁ¤
+        // ï¿½ï¿½ï¿½ï¿½
         foreach (var col in childs)
         {
             col.Stop();
         }
-<<<<<<< HEAD
 
         neon.SetActive(true);
         Invoke("neonDestory", 1f);
-=======
->>>>>>> 576edfe6 (Initial commit)
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -66,12 +60,11 @@ public class Korea : MonoBehaviour
             }
 
         }
-        // ¼öÁ¤
+        // ï¿½ï¿½ï¿½ï¿½
         foreach (var col in childs)
         {
             col.Stop();
         }
-<<<<<<< HEAD
 
         neon.SetActive(true);
         Invoke("neonDestory", 1f);
@@ -80,8 +73,6 @@ public class Korea : MonoBehaviour
     void neonDestory()
     {
         neon.SetActive(false);
-=======
->>>>>>> 576edfe6 (Initial commit)
     }
 
     void Fruit()

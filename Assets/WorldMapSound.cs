@@ -4,13 +4,10 @@ using UnityEngine;
 
 public class WorldMapSound : MonoBehaviour
 {
-<<<<<<< HEAD
     void SmallShip()
     {
         gameObject.GetComponent<AudioSource>().Play();
     }
-=======
->>>>>>> 576edfe6 (Initial commit)
     void ShipSound()
     {
         SoundManager.isPlaneSound = true;
