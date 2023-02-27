@@ -1597,6 +1597,16 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
+<<<<<<< HEAD
+=======
+    functionName: LowShip
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+>>>>>>> 576edfe6 (Initial commit)
     functionName: SeagulSound
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -1610,6 +1620,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+<<<<<<< HEAD
   - time: 0
     functionName: SmallShip
     data: 
@@ -1617,6 +1628,8 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+=======
+>>>>>>> 576edfe6 (Initial commit)
   - time: 6.016667
     functionName: SeagulSoundOff
     data: 

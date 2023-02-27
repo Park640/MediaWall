@@ -5,14 +5,20 @@ using UnityEngine;
 public class Grape : MonoBehaviour
 {
     public GameObject grapeFruit;
+<<<<<<< HEAD
     public GameObject grapeNeon;
+=======
+>>>>>>> 576edfe6 (Initial commit)
     private void OnMouseDown()
     {
         grapeFruit.SetActive(false);
         grapeFruit.SetActive(true);
         grapeFruit.GetComponent<Animator>().enabled = true;
+<<<<<<< HEAD
         grapeNeon.SetActive(true);
         Invoke("neonDestory", 1f);
+=======
+>>>>>>> 576edfe6 (Initial commit)
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -20,6 +26,7 @@ public class Grape : MonoBehaviour
         grapeFruit.SetActive(false);
         grapeFruit.SetActive(true);
         grapeFruit.GetComponent<Animator>().enabled = true;
+<<<<<<< HEAD
         grapeNeon.SetActive(true);
         Invoke("neonDestory", 1f);
     }
@@ -27,5 +34,7 @@ public class Grape : MonoBehaviour
     void neonDestory()
     {
         grapeNeon.SetActive(false);
+=======
+>>>>>>> 576edfe6 (Initial commit)
     }
 }
